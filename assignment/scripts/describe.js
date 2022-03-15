@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable name and then set it to Dane.
+// If the name is Mary we console.log 'Hi, Mary!'
+// If the name is Dane or a different name than Mary then
+// we console.log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a varible named secret
+// We make a varible name code and set it to 123
+// If the code is 123 then the variable secret = super and code is equal to 123 * 2 
+// If the code amount is greater than 250 then the variable secret is duper. The cosole log is secret. 
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We set the varible to student to equal true we set the variable to age 34 and set another variable to the zip code of 55407
+// If the student is true and zipp is greater than 80000 console log 'You are a student on the West Coast!'
+// If the student is false and the age is less than 30 then console log 'What are you hobbies?'
+//If the student is true console log 'Welcome to Prime!' if none of the above applies then console log How about the weather? 
 
 //CODE
 /*
@@ -130,6 +130,7 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - ColorOne is set to red instead of blue and colorTwo is set to blue instead of red they would need to be switch for it to set to purple but it is currently set to change just colorOne to purple not both colorOne and ColorTwo
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -144,6 +145,7 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+//FIX - the Temp is a variable the time is currently set as a constant. The temp is greater than 39 instead of higher(not sure if that impacts)
 let temp = 40;
 const time = 4;
 
@@ -157,6 +159,7 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+//FIX - Age is set as variable and minAge as a constant, it is checking if the minAge is less than or equal to the age
 let age = 21;
 const minAge = 21;
 
